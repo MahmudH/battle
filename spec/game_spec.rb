@@ -19,6 +19,6 @@ describe Game do
 
   it 'attack reduces HP by 10 points' do
     expect(player2).to receive(:receive_damage)
-    game.attack(player2)
+    game.attack
   end
 end
