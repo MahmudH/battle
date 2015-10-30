@@ -1,3 +1,7 @@
 <p><%= @game.player_1_name %> attacked <%= @game.player_2_name %></p>
 
 <p><%=@game.player_2_name%> has a remaining HP of <%=@game.player_2_health%></p>
+
+<form action="/switch_turn">
+  <input type="submit" value="Switch Turn">
+</form>
